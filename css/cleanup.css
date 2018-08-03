@@ -10,6 +10,10 @@ div#wall #tag-2 + #tag-3.slick {
     display: none
 }
 
-div.parent #tag-4 {
+#tag-3.slick + div.parent #tag-4 {
+  display: none
+}
+
+#tag-3.slick ~ div.parent #tag-5.slick {
   display: none
 }
